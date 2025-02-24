@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <center>
+        <br><br><br>
+        <div id="container">
+            
+            <input id="button" type="text" disabled style="height: 3rem; width: 20rem;font-size: 1.5rem;"><br>
+            <button id="orange" onclick="clear_scr()">C</button>
+            <button  id="orange" onclick="del_last('del')">del</button>
+            <button id="orange" onclick="my_fun('.')">.</button>
+            
+            <button  id="pink" onclick="my_fun('/')">/</button><br>
+            <button  onclick="my_fun(7)">7</button>
+            <button  onclick="my_fun(8)">8</button>
+            <button  onclick="my_fun(9)">9</button>
+            <button  id="pink" onclick="my_fun('*')">x</button><br>
+            <button  onclick="my_fun(4)">4</button>
+            <button  onclick="my_fun(5)">5</button>
+            <button  onclick="my_fun(6)">6</button>
+            <button  id="pink" onclick="my_fun('-')">-</button><br>
+            <button  onclick="my_fun(1)">1</button>
+            <button  onclick="my_fun(2)">2</button>
+            <button  onclick="my_fun(3)">3</button>
+            <button  id="pink" onclick="my_fun('+')">+</button><br>
+            <button  onclick="my_fun(0)">0</button>
+            <button  onclick="my_fun('00')">00</button>
+            <button id="green" onclick="calculate()">=</button>
+            <button  id="pink" onclick="my_fun('**')">**</button>
+        </div> 
+        
+    </center>
+</body>
+</html>

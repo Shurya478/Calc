@@ -1,0 +1,116 @@
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #0f0f0f;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    overflow: hidden;
+}
+
+
+#container {
+    background-color: #1b1b1b;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.5);
+    width: 720px;
+    
+    text-align: center;
+    border: 1px solid #00ffff;
+}
+
+
+#button {
+    background-color: #000;
+    color: #00ffff;
+    border: none;
+    border-radius: 10px;
+    text-align: right;
+    padding: 15px;
+    width: 100%;
+    font-size: 2rem;
+    font-family: 'Orbitron', monospace;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+
+button {
+    background: #1b1b1b;
+    border: 1px solid #00ffff;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1.4rem;
+    padding: 15px;
+    width: 10%;
+    margin: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+}
+
+
+button:hover {
+    background-color: #00ffff;
+    color: #000;
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.7);
+}
+
+
+button:active {
+    transform: translateY(2px);
+    box-shadow: none;
+}
+
+
+#pink {
+    background-color: #ff00ff;
+    border-color: #ff00ff;
+}
+
+#pink:hover {
+    background-color: #ff00ff;
+    color: #000;
+    box-shadow: 0 0 15px rgba(255, 0, 255, 0.7);
+}
+
+
+#orange {
+    background-color: #ff0000;
+    border-color: #ff0000;
+    color: #fff;
+}
+
+#orange:hover {
+    background-color: #ff0000;
+    color: #000;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.7);
+}
+
+/* Equals button (=) with a bold neon green effect */
+#green {
+    background-color: #00ff00;
+    border-color: #00ff00;
+    color: #000;
+}
+
+#green:hover {
+    background-color: #00ff00;
+    color: #000;
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.7);
+}
+
+
+button:focus {
+    outline: none;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400&display=swap');
